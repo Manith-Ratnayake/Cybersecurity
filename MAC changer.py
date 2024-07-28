@@ -26,5 +26,6 @@ def main():
     print(f"[+] MAC address has been successfully changed to {new_mac}")
     subprocess.call("ifconfig", shell=True)
 
+
 if __name__ == "__main__":
     main()
